@@ -1,0 +1,12 @@
+{
+  "source": "USDA FoodData Central Branded April 2026",
+  "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_branded_food_json_2026-04-30.zip",
+  "archiveSha256": "57b0f122e61cf2840f03c11e9520275d0d2018dc036e16273fcd3cd370db2256",
+  "member": "FoodData_Central_branded_food_json_2026-04-30.json",
+  "scanned": 56504,
+  "accepted": 38000,
+  "brands": 11133,
+  "categories": 196,
+  "basis": "Label-derived nutrient amounts per 100 g; gram label servings only",
+  "selection": "Source order; normalized name+brand deduplication; max 60 products per brand and 1200 per category"
+}

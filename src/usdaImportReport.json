@@ -1,0 +1,18 @@
+{
+  "rows": 12727,
+  "basis": "per 100 g edible portion; original raw/cooked descriptions retained",
+  "datasets": [
+    {
+      "source": "SR Legacy",
+      "inputRecords": 7793,
+      "accepted": 7457,
+      "sha256": "70d4235ae3a2bdf48a7b9eaa1286a83fa67b6f3270436c9ce8b008213f500129"
+    },
+    {
+      "source": "FNDDS 2021–2023",
+      "inputRecords": 5432,
+      "accepted": 5270,
+      "sha256": "2e7eb9fda92adf1d4d784dba5eaa3a7fd4418cd86ccff383c7c9294d79e9b808"
+    }
+  ]
+}

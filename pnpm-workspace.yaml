@@ -1,0 +1,5 @@
+allowBuilds:
+  unrs-resolver: false
+fetchTimeout: 600000
+fetchRetries: 3
+nodeLinker: hoisted

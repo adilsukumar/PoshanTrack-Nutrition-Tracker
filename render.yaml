@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: poshantrack-photo-ai
+    runtime: node
+    plan: free
+    rootDir: server
+    buildCommand: corepack enable && corepack prepare pnpm@10.12.1 --activate && pnpm install --frozen-lockfile --prod
+    startCommand: node index.mjs
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.22.0
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: PRIVATE_CLIENT_KEY
+        sync: false
+      - key: MAX_DAILY_ANALYSES
+        value: 30
